@@ -8,6 +8,13 @@ img {
 
 /* Classes */
 
+.center {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+
 .cor-texto {
   color: #fafafa;
 }
