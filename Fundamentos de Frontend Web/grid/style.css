@@ -1,0 +1,32 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  background: thistle;
+  gap: 20px;
+}
+
+.grid-container > div {
+  width: 100px;
+  height: 100px;
+  color: aliceblue;
+}
+
+#box1 {
+  background: rebeccapurple;
+}
+
+#box2 {
+  background: teal;
+}
+
+#box3 {
+  background: tan;
+}
+
+#box4 {
+  background: yellowgreen;
+}
+
+#box5 {
+  background: orangered;
+}
